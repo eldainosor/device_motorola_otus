@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from otus device
 $(call inherit-product, device/motorola/otus/device.mk)
 
-PRODUCT_NAME := full_otus
+PRODUCT_NAME := citrus_otus
 PRODUCT_DEVICE := otus
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := otus
