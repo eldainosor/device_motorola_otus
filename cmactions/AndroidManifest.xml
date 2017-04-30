@@ -18,6 +18,7 @@
 
     <application
         android:allowBackup="true"
+        android:icon="@drawable/ic_gesture"
         android:label="@string/device_settings_app_name"
         android:persistent="true"
         android:theme="@android:style/Theme.Material.Settings">
@@ -53,6 +54,7 @@
             android:label="@string/screen_gestures_panel_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
