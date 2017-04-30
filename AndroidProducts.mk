@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_otus.mk
+    $(LOCAL_DIR)/aosp_otus.mk
