@@ -38,30 +38,15 @@
 
         <activity
                   android:excludeFromRecents="true"
-                  android:name="CMActions"
-                  android:label="CMActions"
+                  android:name=".TouchscreenGestureSettings"
+                  android:label="@string/screen_gestures_panel_title">
                   android:launchMode="singleInstance"
                   android:screenOrientation="portrait"
                   android:windowAnimationStyle="@null">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-
-
-        <activity
-            android:name=".TouchscreenGestureSettings"
-            android:label="@string/screen_gestures_panel_title">
-            <intent-filter>
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.device" />
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_settings_gestures" />
         </activity>
 
     </application>
